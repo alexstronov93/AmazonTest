@@ -1,0 +1,25 @@
+<suite name="AmazonTest" verbose="1">
+    <test name="AmazonTest">
+        <classes>
+            <class name="tests.AmazonTest">
+                <method>
+                    <include name="searchPS4"/>
+
+                    <include name="sortByLowToHigh"/>
+
+                    <include name="sortByAVG"/>
+
+                    <include name="addToCartProduct"/>
+
+                    <include name="changeAmountInCart"/>
+
+                    <include name="deleteProductFromCart"/>
+
+                    <include name="addToCartGiftCard"/>
+
+                    <include name="checkPrivacyNotice"/>
+                </method>
+            </class>
+        </classes>
+    </test>
+</suite>

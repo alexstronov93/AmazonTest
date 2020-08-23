@@ -1,0 +1,11 @@
+<suite name = "Invalid SignIn" verbose="1">
+    <test name="TestInvalidSignIn">
+        <classes>
+            <class name="tests.SignInTest">
+            <method>
+                    <include name="testInvalidSignIn"/>
+            </method>
+            </class>
+        </classes>
+    </test>
+</suite>
